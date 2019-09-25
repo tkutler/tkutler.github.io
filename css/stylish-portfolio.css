@@ -121,10 +121,17 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
+@media (min-width: 0px) and (max-width: 400px){
+  .masthead{
+    width: 50%;
+    
+  
+  }
+}
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
+    
   }
   .masthead h1 {
     font-size: 5.5rem;
@@ -282,7 +289,8 @@ h6 {
   .portfolio-item {
     max-width: none;
     margin: 0;
-  }
+  } 
+
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
