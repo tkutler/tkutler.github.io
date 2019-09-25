@@ -123,8 +123,8 @@ h6 {
 }
 @media (min-width: 0px) and (max-width: 400px){
   .masthead{
-    width: 50%;
-    height:50% 
+    background-size: 450px 450px;
+
   
   }
 }
