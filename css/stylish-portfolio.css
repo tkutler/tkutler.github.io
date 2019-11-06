@@ -125,35 +125,52 @@ h6 {
 
 @media only screen and (min-width: 0px) {
   .masthead {
-      background-size: 300px 300px;
+      background-size: 375px 375px;
       font-size: 12px;
 
   }
-  .mb-1{
-    font-size: 8px;
+  .name{
+    font-size: 16px;
   }
+  .resp{
+    font-size: 14px;
+  }
+  .buttonText{
+    font-size: 12px;;
+  }
+
 }
 
 
 @media only screen and (min-width: 481px) {
   .masthead {
-      background-size: 400px 400px;
+      background-size: 500px 500px;
       font-size: 20px;
   }
-  .mb-1{
-    font-size: 12px;
+  .name{
+    font-size: 30px;
   }
+  .resp{
+    font-size: 27px;
+  }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
   .masthead {
       background-size: 600px 600px;
       font-size: 36px;
+      
   
 }
-.mb-1{
-  font-size: 16px;
+.name{
+  font-size: 46px;
 }
+.resp{
+  font-size: 40px;
+}
+
 
 
 /* Side Menu */
