@@ -122,14 +122,36 @@ h6 {
   padding: 0;
 }
 
-@media (min-width: 992px) {
+
+@media only screen and (min-width: 0px) {
   .masthead {
-    height: 100vh;
+      background-size: 200px 200px;
+
   }
-  .masthead h1 {
-    font-size: 5.5rem;
+  .mb-1{
+    font-size: 8px;
   }
 }
+
+
+@media only screen and (min-width: 481px) {
+  .masthead {
+      background-size: 400px 400px;
+  }
+  .mb-1{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .masthead {
+      background-size: 600px 600px
+  
+}
+.mb-1{
+  font-size: 16px;
+}
+
 
 /* Side Menu */
 #sidebar-wrapper {
