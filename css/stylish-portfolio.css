@@ -165,6 +165,15 @@ h6 {
     margin-bottom:-2px;
     
   }
+  .portfolio-item .caption .caption-content {
+    color:black;
+    margin: auto 2rem 2rem;
+    font-weight: 900;
+    
+  }
+  .portfolio-item .caption-content p{
+    font-weight: 900;
+  }
 
 }
 
@@ -185,14 +194,27 @@ h6 {
   }
   .mb-0 {
     font-size: 12px;
+    font-weight: 900;
   }
   .custom{
     font-size: 12px;
+    font-weight: 900;
   }
   .letFit{
     font-size: 12px;
+    font-weight: 900;
     
   }
+  .portfolio-item .caption .caption-content {
+    color: black;
+    font-weight: 900;
+    margin: auto 2rem 2rem;
+    background-color: none;
+  }
+  .makeW{
+    color: white;
+  }
+
 
 
 }
@@ -208,21 +230,31 @@ h6 {
   font-size: 22px;
 }
 .mb-0 {
-  font-size: 14px;
+  font-size: 11px;
+  
 }
 .custom{
-  font-size: 14px;
+  font-size: 10.7px;
 }
 .letFit{
   font-size: 14px;
   
 }
+.portfolio-item .caption .caption-content {
+  color: #fff;
+  margin: auto 2rem 2rem;
+  
+}
+
 
 .name{
   font-size: 46px;
 }
 .resp{
   font-size: 40px;
+}
+.whyBot{
+  margin-top: 38px;
 }
 
 
