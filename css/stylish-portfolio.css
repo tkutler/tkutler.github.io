@@ -13,14 +13,7 @@ html {
 body {
   font-family: 'Source Sans Pro';
 }
-.custom{
-  width: 437px;
-  height: 150px;
-}
-.letFit{
-  width: 300px;
-  height: 100px;
-}
+
 .whyBot{
   margin-top: 30px;
 }
@@ -140,6 +133,17 @@ h6 {
       font-size: 12px;
 
   }
+  .whyBot{
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  .techs{
+    margin-top: -8px;
+    margin-bottom: 1px;
+    font-size: 9px;
+  }
+
+
   .name{
     font-size: 14px;
   }
@@ -148,6 +152,18 @@ h6 {
   }
   .buttonText{
     font-size: 12px;;
+  }
+  .mb-0 {
+    font-size: 8px;
+  }
+  .custom{
+    font-size: 6px;
+    margin-bottom:-2px;
+  }
+  .letFit{
+    font-size: 8px;
+    margin-bottom:-2px;
+    
   }
 
 }
@@ -161,8 +177,21 @@ h6 {
   .name{
     font-size: 30px;
   }
+  .techs{
+    font-size: 17px;
+  }
   .resp{
     font-size: 27px;
+  }
+  .mb-0 {
+    font-size: 12px;
+  }
+  .custom{
+    font-size: 12px;
+  }
+  .letFit{
+    font-size: 12px;
+    
   }
 
 
@@ -173,6 +202,19 @@ h6 {
       background-size: 600px 600px;
       font-size: 36px;
       
+  
+}
+.techs{
+  font-size: 22px;
+}
+.mb-0 {
+  font-size: 14px;
+}
+.custom{
+  font-size: 14px;
+}
+.letFit{
+  font-size: 14px;
   
 }
 
@@ -329,7 +371,7 @@ h6 {
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1 rem;
 }
 
 @media (min-width: 992px) {
