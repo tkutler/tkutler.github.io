@@ -13,6 +13,17 @@ html {
 body {
   font-family: 'Source Sans Pro';
 }
+.custom{
+  width: 437px;
+  height: 150px;
+}
+.letFit{
+  width: 300px;
+  height: 100px;
+}
+.whyBot{
+  margin-top: 15px;
+}
 .techicon{
   border-radius: 80px; 
   width: 90px;
@@ -164,6 +175,7 @@ h6 {
       
   
 }
+
 .name{
   font-size: 46px;
 }
