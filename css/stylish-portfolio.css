@@ -52,11 +52,7 @@ body {
 .content-section-heading h2 {
   font-size: 3rem;
 }
-@media (min-width: 992px){
-  .new{
-    margin-left: 173px;
-  }
-}
+
 
 .content-section-heading h3 {
   font-size: 1rem;
@@ -149,6 +145,10 @@ iframe{
       font-size: 12px;
 
   }
+  .new{
+    margin-left: 100px;
+  }
+
   .whyBot{
     margin-top: 0px;
    
@@ -231,18 +231,26 @@ iframe{
   }
   .makeW{
     color: white;
-  }
+  } 
+ 
 
 
 
 }
-
+@media only screen and (min-width: 900px) {
+  .new{
+    margin-left: 144px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .masthead {
       background-size: 600px 600px;
       font-size: 36px;
       
   
+}
+.new{
+  margin-left: 168px;
 }
 .techs{
   font-size: 22px;
@@ -279,7 +287,11 @@ iframe{
   margin-top: 38px;
   font-size: 18px;
 }
-
+@media only screen and (min-width: 1200px){
+  .new{
+    margin-left: 220px;
+  }
+}
 
 
 /* Side Menu */
