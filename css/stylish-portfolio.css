@@ -52,6 +52,11 @@ body {
 .content-section-heading h2 {
   font-size: 3rem;
 }
+@media (min-width: 992px){
+  .mb-lg-0{
+    margin-left: 173px;
+  }
+}
 
 .content-section-heading h3 {
   font-size: 1rem;
@@ -81,11 +86,7 @@ h6 {
     height: 75%;
   }
 }
-@media (min-width: 768px){
-.col-md-6{
-  margin-left: 180px;
-} 
-}
+
 .map iframe {
   pointer-events: none;
 }
