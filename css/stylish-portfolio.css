@@ -257,7 +257,7 @@ h6 {
     margin-right: -217px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 990px) {
   .masthead {
       background-size: 600px 600px;
       font-size: 36px;
