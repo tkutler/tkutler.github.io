@@ -149,6 +149,11 @@ h6 {
       font-size: 12px;
 
   }
+  .portfolio-item .caption {
+
+    background-color: #1D809F;
+
+  }
   .video{
     width: 220px;
     height: 150px;
@@ -184,7 +189,7 @@ h6 {
     font-size: 12px;
   }
   .custom{
-    font-size: 6px;
+    font-size: 8px;
     margin-bottom:-2px;
   }
   .letFit{
@@ -214,12 +219,18 @@ h6 {
     width: 420px;
     height: 315px;
   }
+  .portfolio-item .caption {
+
+    background-color: #1D809F;
+
+  }
 
   .name{
     font-size: 30px;
   }
   .techs{
     font-size: 17px;
+    color: #fff;
   }
   .resp{
     font-size: 27px;
@@ -227,14 +238,17 @@ h6 {
   .mb-0 {
     font-size: 12px;
     font-weight: 900;
+    color: #fff;
   }
   .custom{
     font-size: 12px;
     font-weight: 900;
+    color: #fff;
   }
   .letFit{
     font-size: 12px;
     font-weight: 900;
+    color: white;
     
   }
   .portfolio-item .caption .caption-content {
@@ -256,6 +270,12 @@ h6 {
     margin-left: auto;
     
   }
+  .portfolio-item .caption {
+
+    background-color: rgba(33, 37, 41, 0.2);
+
+  }
+  
 
 }
 @media only screen and (min-width: 990px) {
@@ -273,14 +293,15 @@ h6 {
   font-size: 22px;
 }
 .mb-0 {
-  font-size: 12px;
+  font-size: 15px;
   
 }
 .custom{
-  font-size: 10.7px;
+  font-size: 15px;
+  
 }
 .letFit{
-  font-size: 14px;
+  font-size: 15px;
   
 }
 .portfolio-item .caption .caption-content {
