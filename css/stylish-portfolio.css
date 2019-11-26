@@ -9,6 +9,23 @@ html {
   width: 100%;
   height: 100%;
 }
+.text-white{
+  color: black;
+}
+.card-title{
+  color: black;
+}
+.card{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.list-group-item{
+  color: black;
+}
+.card-text{
+  color: black;
+}
 .btn.btn-outline-warning{
   background-color: #ecb807;
   color: #fff;
@@ -172,8 +189,8 @@ h6 {
     height: 150px;
   }
   .new{
-    margin-left: 141px;
-    margin-right: 141px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .whyBot{
@@ -277,9 +294,9 @@ h6 {
     color: white;
   }
   .new{
-    margin-left: 174px;
-    margin-right: 174px;
-    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
  
  
