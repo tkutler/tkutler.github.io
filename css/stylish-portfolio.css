@@ -13,6 +13,10 @@ html {
 body {
   font-family: 'Source Sans Pro';
 }
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .whyBot{
   margin-top: 30px;
@@ -150,7 +154,8 @@ h6 {
     height: 150px;
   }
   .new{
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .whyBot{
@@ -248,7 +253,8 @@ h6 {
 }
 @media only screen and (min-width: 900px) {
   .new{
-    margin-left: 144px;
+    margin-left: auto;
+    margin-right: -250px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -259,7 +265,8 @@ h6 {
   
 }
 .new{
-  margin-left: 168px;
+  margin-left: auto;
+  margin-right: -242px;
 }
 .techs{
   font-size: 22px;
@@ -296,9 +303,10 @@ h6 {
   margin-top: 38px;
   font-size: 18px;
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1198px){
   .new{
-    margin-left: 220px;
+    margin-left: auto;
+    margin-right: -267px;
   }
 }
 
