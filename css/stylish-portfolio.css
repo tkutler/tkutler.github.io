@@ -9,10 +9,19 @@ html {
   width: 100%;
   height: 100%;
 }
+.btn.btn-outline-warning{
+  background-color: #ecb807;
+  color: #fff;
+}
+.btn.btn-outline-warning:hover{
+  background-color:white;
+  color: #ecb807;
+}
 
 body {
   font-family: 'Source Sans Pro';
 }
+
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -74,6 +83,7 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
 }
 
 /* Map */
@@ -149,6 +159,9 @@ h6 {
       font-size: 12px;
 
   }
+  .text-faded{
+    font-size: 16px;
+  }
   .portfolio-item .caption {
 
     background-color: #1D809F;
@@ -159,8 +172,8 @@ h6 {
     height: 150px;
   }
   .new{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .whyBot{
@@ -215,40 +228,43 @@ h6 {
       background-size: 500px 500px;
       font-size: 20px;
   }
+
   .video{
     width: 420px;
     height: 315px;
   }
+
   .portfolio-item .caption {
 
-    background-color: #1D809F;
+    background-color: rgba(33, 37, 41, 0.2);
 
   }
+  
 
   .name{
     font-size: 30px;
   }
   .techs{
-    font-size: 17px;
-    color: #fff;
+    font-size: 19px;
+    color: black
   }
   .resp{
     font-size: 27px;
   }
   .mb-0 {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
-    color: #fff;
+    color: black
   }
   .custom{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
-    color: #fff;
+    color:black
   }
   .letFit{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 900;
-    color: white;
+    color: black
     
   }
   .portfolio-item .caption .caption-content {
@@ -259,7 +275,8 @@ h6 {
   }
   .makeW{
     color: white;
-  } 
+  }
+ 
  
 
 
@@ -285,25 +302,31 @@ h6 {
       
   
 }
+
 .new{
-  margin-left: auto;
-  margin-right: -242px;
+  margin-left: 53px;
+  margin-right: -64px;
 }
 .techs{
-  font-size: 22px;
+  font-size: 19px;
+  color: #fff;
 }
 .mb-0 {
-  font-size: 15px;
+  font-size: 17px;
+  color: #fff;
   
 }
 .custom{
-  font-size: 15px;
+  font-size: 17px;
+  color: #fff;
   
 }
 .letFit{
-  font-size: 15px;
+  font-size: 17px;
+  color: #fff;
   
 }
+
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
@@ -319,7 +342,7 @@ h6 {
 }
 .whyBot{
   margin-top: 38px;
-  font-size: 18px;
+  font-size: 30px;
 }
 .whyPong{
   margin-top: 38px;
@@ -327,8 +350,8 @@ h6 {
 }
 @media only screen and (min-width: 1198px){
   .new{
-    margin-left: auto;
-    margin-right: -267px;
+    margin-left: 140px;
+    margin-right: -136px;
   }
 }
 
