@@ -160,7 +160,7 @@ h6 {
 
   }
   .text-faded{
-    font-size: 16px;
+    font-size: 12px;
   }
   .portfolio-item .caption {
 
@@ -172,8 +172,8 @@ h6 {
     height: 150px;
   }
   .new{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 141px;
+    margin-right: 141px;
   }
 
   .whyBot{
@@ -251,7 +251,7 @@ h6 {
   .resp{
     font-size: 27px;
   }
-  .mb-0 {
+  .letFit {
     font-size: 16px;
     font-weight: 900;
     color: black
@@ -275,6 +275,11 @@ h6 {
   }
   .makeW{
     color: white;
+  }
+  .new{
+    margin-left: 174px;
+    margin-right: 174px;
+    margin-bottom: 10px;
   }
  
  
