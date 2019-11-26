@@ -181,7 +181,7 @@ h6 {
     font-size: 12px;;
   }
   .mb-0 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .custom{
     font-size: 6px;
@@ -256,6 +256,7 @@ h6 {
     margin-left: auto;
     
   }
+
 }
 @media only screen and (min-width: 990px) {
   .masthead {
@@ -272,7 +273,7 @@ h6 {
   font-size: 22px;
 }
 .mb-0 {
-  font-size: 11px;
+  font-size: 12px;
   
 }
 .custom{
