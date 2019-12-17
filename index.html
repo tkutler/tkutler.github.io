@@ -29,6 +29,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -69,7 +70,7 @@
   </nav>
 
   <!-- Header -->
-  <div class="topP">
+  <div class="topP" data-aos="fade-right" data-aos-duration="10000">
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
         <h1 class="mb-1"><span class="name">Toby Kutler</span></h1>
@@ -104,50 +105,54 @@
 
   <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
+    <div class="container" >
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Specialities</h3>
         <h2 class="mb-5">Development Tools and Stacks</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-in-right">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <a href="https://angular.io" target="_blank"><img class= "techicon" src="img/mean.png"></a>
+            <a href="https://github.com/tkutler" target="_blank"><i class="fas fa-code"></i></a>
           </span>
           <h4>
-            <strong>MEAN Stack</strong>
+            <strong>Languages</strong>
           </h4>
-          <p class="text-faded mb-0">MongoDB, Express, Angular, Node.JS</p>
+          <p class="text-faded mb-0">JavaScript, Java, Python, HTML5, CSS | SASS | LESS, Typescript, SQL</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-in-up">
           <span class="service-icon rounded-circle mx-auto mb-3">
-              <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer"><img class= "mern" src="img/mern.jpg" ></a>
+              <a href="https://github.com/tkutler" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-restore"></i>
+
+              </a>
           </span>
           <h4>
-            <strong>MERN Stack</strong>
+            <strong>Frameworks</strong>
           </h4>
-          <p class="text-faded mb-0">MongoDB, Express, React, Node.JS</p>
+          <p class="text-faded mb-0">Express,Angular, React,SpringBoot, Django, Flask</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="zoom-in-up">
           <span class="service-icon rounded-circle mx-auto mb-3">
-              <a href="http://python.org" target="_blank" rel="noopener noreferrer"></a><img class= "techicon" src="img/python.png"" >
+              <a href="http://github.com/tkutler" target="_blank" rel="noopener noreferrer"></a><i class="fas fa-book-medical"></i>
+
           </span>
           <h4>
-            <strong>Python</strong>
+            <strong>Libraries</strong>
           </h4>
-          <p class="text-faded mb-0">Django and Flask Frameworks and MYSQL for Database
+          <p class="text-faded mb-0">Node.js, React, Mongoose, JQuery, AJAX, Bootsrap
             
             </p>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6" data-aos="zoom-in-left">
           <span class="service-icon rounded-circle mx-auto mb-3">
-              <a href="https://www.java.com/en/" target="_blank" rel="noopener noreferrer"></a><img class= "java" src="img/java.jpg"" >
+              <a href="https://github.com/tkutler" target="_blank" rel="noopener noreferrer"></a><i class="fas fa-database"></i>
+
           </span>
           <h4>
-            <strong>Java</strong>
+            <strong>Database/Servers</strong>
           </h4>
-          <p class="text-faded mb-0">Spring Framework and MYSQl for Database</p>
+          <p class="text-faded mb-0">MySQL, SQLite, MongoDB, Firebase,REST,AWS</p>
         </div>
       </div>
     </div>
@@ -162,8 +167,8 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
+      <div class="row no-gutters" >
+        <div class="col-lg-6" data-aos="fade-right" >
           <a class="portfolio-item" href="https://drive.google.com/file/d/1wsJmKpOUUamcGJB17D_xxgARz8IieN1l/view?usp=sharing" target = "_blank">
             <span class="caption">
               <span class="caption-content">
@@ -177,7 +182,7 @@
             <img class="img-fluid" src="img/meet.jpg" alt="">
           </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-left">
           <a class="portfolio-item" href="https://drive.google.com/file/d/1bSSTB1_9u51SVUecZq2AHO2PRb9j5fty/view?usp=sharing" target="_blank">
             <span class="caption">
               <span class="caption-content">
@@ -193,7 +198,7 @@
             <img class="img-fluid" src="img/bookapp.jpg" >
           </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-right">
           <a class="portfolio-item" href="https://drive.google.com/file/d/1J6wQrkDtsHB-BOVTwoRIGhkRbvGQgiXI/view">
             <span class="caption">
               <span class="caption-content">
@@ -206,7 +211,7 @@
             <img class="img-fluid" src="img/bot.png" >
           </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-left">
           <a class="portfolio-item" href="http://3.136.86.226/home" target="_blank">
             <span class="caption">
               <span class="caption-content">
@@ -223,14 +228,18 @@
     </div>
   </section>
 
+
+
+
+
   <!--  Achievements -->
   <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
+    <div class="container" >
         <div class="content-section-heading">
             <h3 class="text-secondary ">Table Tennis</h3>
             <h2 class="mb-5">Achievements</h2>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card"  data-aos="zoom-in-left" style="width: 18rem;">
               <a href="img/usatt.pdf"  rel="noopener noreferrer"><img src="img/tt.png" class="card-img-top" alt=""></a>
               <div class="card-body">
                 <h5 class="card-title">Proffessional Level</h5>
@@ -242,9 +251,9 @@
               </ul>
 
             </div>
-          <div class="container">
+          <div class="container" >
 
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-aos="zoom-in-right" style="width: 18rem;">
               <a href= "https://natabletennis.com/?p=220rel="noopener noreferrer"><img src="img/reach.jpg" class="card-img-top" alt=""></a>
               <div class="card-body">
                 <h5 class="card-title">Junior Titles</h5>
@@ -257,13 +266,17 @@
               </ul>
 
             </div>
-      <iframe class ="video" width="420" height="315" 
+      <iframe class ="video" width="420" height="315" data-aos="zoom-in-up"
       src="https://www.youtube.com/embed/8BxaQ4Z6U0c">
       </iframe>
     </div>
     <div>      
       <a class="btn btn-dark btn-xl js-scroll-trigger" href="mailto:tobykutler@gmail.com?Subject=Book%20private%20table%20tennis%20lesson" target="_blank" >Contact Me to Book A Private Lesson</a></div>
   </section>
+
+
+
+
 
 
   <!-- Map -->
@@ -318,6 +331,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>   
+      AOS.init(); 
+   </script>
 
 </body>
 

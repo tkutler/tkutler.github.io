@@ -26,6 +26,9 @@ html {
 .card-text{
   color: black;
 }
+i{
+  color: #ecb807;
+}
 .btn.btn-outline-warning{
   background-color: #ecb807;
   color: #fff;
@@ -196,7 +199,7 @@ h6 {
   .whyBot{
     margin-top: 0px;
    background-color: #1D809F;
-    color: yellow;
+    color: #ecb807;
   }
 
   .techs{
