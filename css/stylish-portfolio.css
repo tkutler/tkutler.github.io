@@ -562,11 +562,7 @@ h6 {
     margin: 0;
   } 
 
-  .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
+
   .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
     margin-left: 5rem;
@@ -574,7 +570,7 @@ h6 {
     margin-bottom: 5rem;
   }
   .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+  
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
@@ -659,4 +655,5 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
 }
