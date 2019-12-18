@@ -26,7 +26,7 @@ html {
 .card-text{
   color: black;
 }
-i{
+i.fas {
   color: #ecb807;
 }
 .btn.btn-outline-warning{
