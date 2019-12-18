@@ -44,7 +44,7 @@
 
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
+    <i class="fas fa-bars" ></i>
   </a>
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
@@ -111,7 +111,7 @@
         <h2 class="mb-5">Development Tools and Stacks</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-in-right">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="flip-up">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <a href="https://github.com/tkutler" target="_blank"><i class="fas fa-code"></i></a>
           </span>
@@ -120,7 +120,7 @@
           </h4>
           <p class="text-faded mb-0">JavaScript, Java, Python, HTML5, CSS | SASS | LESS, Typescript, SQL</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="zoom-in-up">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" data-aos="flip-down">
           <span class="service-icon rounded-circle mx-auto mb-3">
               <a href="https://github.com/tkutler" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-restore"></i>
 
@@ -131,7 +131,7 @@
           </h4>
           <p class="text-faded mb-0">Express,Angular, React,SpringBoot, Django, Flask</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="zoom-in-up">
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="flip-up">
           <span class="service-icon rounded-circle mx-auto mb-3">
               <a href="http://github.com/tkutler" target="_blank" rel="noopener noreferrer"></a><i class="fas fa-book-medical"></i>
 
@@ -144,7 +144,7 @@
             </p>
         </div>
 
-        <div class="col-lg-3 col-md-6" data-aos="zoom-in-left">
+        <div class="col-lg-3 col-md-6" data-aos="flip-down">
           <span class="service-icon rounded-circle mx-auto mb-3">
               <a href="https://github.com/tkutler" target="_blank" rel="noopener noreferrer"></a><i class="fas fa-database"></i>
 
@@ -159,72 +159,93 @@
   </section>
 
 
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
+ <!-- Portfolio -->
+ <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
         <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+        <h2 class="mb-5">Projects</h2>
       </div>
-      <div class="row no-gutters" >
-        <div class="col-lg-6" data-aos="fade-right" >
-          <a class="portfolio-item" href="https://drive.google.com/file/d/1wsJmKpOUUamcGJB17D_xxgARz8IieN1l/view?usp=sharing" target = "_blank">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 class="whyBot">MeetUp.COM Clone</h2>
-                <p class="techs">Technologies: Java, Spring, MYSQL</p>
-                <p class="letFit">Users can create an event to host, edit their event or delete it. Other users can join host's events. All users can view event page and write on message board</p>
-               <button class="btn btn-outline-warning
-               " onclick=" window.open('https://github.com/tkutler/themeetup','_blank')"> View Code</button>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/meet.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <a class="portfolio-item" href="https://drive.google.com/file/d/1bSSTB1_9u51SVUecZq2AHO2PRb9j5fty/view?usp=sharing" target="_blank">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 class="whyBot"><span > Pro Ping Pong Connection</span></h2>
-                <p class="techs">Technologies: MongoDB, Express, Angular, Node.JS</p>
+      <div class="container">
 
-                <p class ="letFit">A booking app where users can create an account and book a professional table tennis coach for private lesson or event</p>
-                <button class="btn btn-outline-warning" onclick=" window.open('https://github.com/tkutler/PPP','_blank')"> View Code</button>
-               
-              </span>
-            </span>
-          
-            <img class="img-fluid" src="img/bookapp.jpg" >
-          </a>
+          <!-- Page Heading -->
+
+    
+          <!-- Project One -->
+          <div class="row" data-aos="fade-right">
+            <div class="col-md-7" >
+              <a href="http://3.136.86.226/home" target="_blank">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="img/garnetWelcome.png" >
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Garnet Group LLC Homepage</h3>
+              <h6>Technologies: Angular, Node.js, Express, NGNIX</h6>
+              <p>An official homepage for a successful Wealth Management Group in the Washington, DC Area. The site is fully responsive and displays beautiful tailor UX design for each screen-size. It is deployed with AWS and secured with NGNIX.</p>
+              <a class="btn btn-primary" href="http://3.136.86.226/home">View Site</a>
+            </div>
+          </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+          <!-- Project Two -->
+          <div class="row" data-aos="fade-left">
+            <div class="col-md-5">
+                <h3>ghostBot</h3>
+                <h6>Technologies: Express, Angular, Node.JS</h6>
+                <p>Message-board where users can register/sign-in write comments, delete their own comments, report/flag comments. Implements a special “Ghost User” who whenever registered and logged in posts random messages to the message board every 30 seconds through a recursive run timeout function on server</p>
+                <a class="btn btn-primary" href="https://github.com/tkutler/ghostBot">View Code</a>
+            </div>
+            <div class="col-md-7">
+                <a href="https://drive.google.com/file/d/1J6wQrkDtsHB-BOVTwoRIGhkRbvGQgiXI/view"target="_blank">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/bot.png" >
+                  </a>
+            </div>
+          </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+          <!-- Project Three -->
+          <div class="row" data-aos="fade-right">
+            <div class="col-md-7">
+              <a href="https://drive.google.com/file/d/1bSSTB1_9u51SVUecZq2AHO2PRb9j5fty/view?usp=sharing" target="_blank">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="img/bookapp.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Table Tennis Coaches Booking Platform</h3>
+              <h6>Technologies: MongoDB, Express, Angular, Node.JS</h6>
+              <p>A booking app where users can create an account and book a professional table tennis coach for private lesson or event</p>
+              <a class="btn btn-primary" href="https://github.com/tkutler/PPP">View Code</a>
+            </div>
+          </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+          <!-- Project Four -->
+          <div class="row" data-aos="fade-left">
+              <div class="col-md-5">
+                  <h3>MeetUp.com Clone</h3>
+                  <p>Users can create an event to host, edit their event or delete it. Other users can join host's events. All users can view event page and write on message board.</p>
+                  <a class="btn btn-primary" href="https://github.com/tkutler/themeetup">View Code</a>
+              </div>
+              <div class="col-md-7">
+                  <a href="https://drive.google.com/file/d/1wsJmKpOUUamcGJB17D_xxgARz8IieN1l/view?usp=sharing">
+                      <img class="img-fluid rounded mb-3 mb-md-0" src="img/meet.jpg" alt="">
+                    </a>
+              </div>
+            </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+
+    
         </div>
-        <div class="col-lg-6" data-aos="fade-right">
-          <a class="portfolio-item" href="https://drive.google.com/file/d/1J6wQrkDtsHB-BOVTwoRIGhkRbvGQgiXI/view">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 class="whyBot">ghostBot</h2>
-                <p class="techs"> Technologies: Express, Angular, Node.JS</p>
-                <p class="custom"> Message-board where users can register/sign-in write comments, delete their own comments, report/flag comments. Implements a special “Ghost User” who whenever registered and logged in posts random messages to the message board every 30 seconds through a recursive run timeout function on server </p>
-                <button class="btn btn-outline-warning" onclick=" window.open('https://github.com/tkutler/ghostBot','_blank')"> View Code</button>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/bot.png" >
-          </a>
-        </div>
-        <div class="col-lg-6" data-aos="fade-left">
-          <a class="portfolio-item" href="http://3.136.86.226/home" target="_blank">
-            <span class="caption">
-              <span class="caption-content">
-                <h2 class="whyBot"
-                >Garnet Group Wealth Management LLC Homepage </h2>
-                <p class="techs">Technologies: Angular, Node.js, Express, NGNIX</p>
-                <p class="letFit">An official homepage for a successful Wealth Management Group in the Washington, DC Area. The site is fully responsive and displays beautiful tailor UX design for each screen-size. It is deployed with AWS and secured with NGNIX. </p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/garnetWelcome.png" >
-          </a>
-        </div>
-      </div>
+    
     </div>
   </section>
 
@@ -274,7 +295,7 @@
     <div>      
       <a class="btn btn-dark btn-xl js-scroll-trigger" href="mailto:tobykutler@gmail.com?Subject=Book%20private%20table%20tennis%20lesson" target="_blank" >Contact Me to Book A Private Lesson</a></div>
   </section>
-
+  
 
 
 

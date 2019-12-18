@@ -26,8 +26,19 @@ html {
 .card-text{
   color: black;
 }
+.d-md-block{
+  width: 144px;
+  height: 165px;
+  margin-right: 25px;
+  margin-top: 25px;
+
+
+}
 i.fas {
   color: #ecb807;
+}
+.fa-bars:before{
+  color: white;
 }
 .btn.btn-outline-warning{
   background-color: #ecb807;
