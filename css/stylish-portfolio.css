@@ -12,8 +12,26 @@ html {
 .text-white{
   color: black;
 }
+footer.footer .social-link{
+  background-color: #fff;
+}
 .card-title{
-  color: black;
+  color: grey;
+}
+.icon-social-github:before {
+  color: grey;
+}
+.fa-linkedin-in:before{
+  color: grey;
+}
+.fa-linkedin-in:before:hover{
+  background-color: #2977B5;
+}
+#copyright{
+  color: white;
+}
+.text-muted{
+  color: white ! important;
 }
 .card{
   margin-left: auto;
@@ -156,7 +174,27 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-
+footer{
+  background-color: #1D809F;
+}
+ .social-link{
+  background-color: #fff;
+}
+#rowT{
+  border-bottom: solid #1D809F;
+}
+.btn-dark{
+  margin-bottom: 15px;;
+}
+.col-md-5 {
+  padding-bottom: 42px;
+}
+#services{
+  margin-top: -122px;
+}
+.col-md-7{
+  padding-bottom: 42px;
+}
 .scroll-to-top i {
   font-weight: 800;
 }
@@ -190,9 +228,7 @@ h6 {
       font-size: 12px;
 
   }
-  .text-faded{
-    font-size: 12px;
-  }
+
   .portfolio-item .caption {
 
     background-color: #1D809F;
@@ -256,6 +292,21 @@ h6 {
 
 }
 
+@media only screen and (max-width: 481px){
+
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+  .mx-auto{
+    margin-top: -149px;
+  }
+  #rowT{
+    border-bottom: solid #1D809F;
+  }
+  .col-md-7{
+    margin-bottom: 15px;
+  }
+}
 
 @media only screen and (min-width: 481px) {
   .masthead {
@@ -607,13 +658,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #ecb807;
   text-decoration: none;
 }
 
