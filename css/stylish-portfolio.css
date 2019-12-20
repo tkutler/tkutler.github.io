@@ -260,7 +260,7 @@ footer{
     font-size: 36px;
   }
   .resp{
-    font-size: 17px;
+    font-size: 20px;
   }
   .buttonText{
     font-size: 12px;;
@@ -297,8 +297,11 @@ footer{
   .btn-primary{
     margin-bottom: 15px;
   }
-  .mx-auto{
-    margin-top: -149px;
+  .mx-auto {
+    margin-top: -32px;
+}
+  #about{
+    margin-top: -82px;
   }
   #rowT{
     border-bottom: solid #1D809F;
@@ -665,6 +668,12 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #ecb807;
   text-decoration: none;
+}
+#linkedin:hover{
+  background: #2977B5;
+}
+#github:hover{
+  background-color: #24292E;
 }
 
 a {
