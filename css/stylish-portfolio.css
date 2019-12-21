@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
 
 body,
 html {
@@ -13,22 +8,16 @@ html {
   color: black;
 }
 
-footer.footer .social-link{
-  background-color: #fff;
-  margin-right: 15px;
-}
+
 .card-title{
   color: grey;
 }
-.icon-social-github:before {
-  color: grey;
-}
-.fa-envelope:before {
-  color: grey;
-}
+
 #mail:hover {
   background-color: #D6463B;
 }
+
+/* icons  */
 i,fas{
   color: #ba9106;
 }
@@ -38,6 +27,36 @@ i,fas{
 .fa-linkedin-in:before:hover{
   background-color: #2977B5;
 }
+.icon-social-github:before {
+  color: grey;
+}
+.fa-envelope:before {
+  color: grey;
+}
+footer.footer .social-link{
+  background-color: #fff;
+  margin-right: 15px;
+}
+.fa-bars:before{
+  color: white;
+}
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
 #copyright{
   color: white;
 }
@@ -64,9 +83,7 @@ i,fas{
 
 }
 
-.fa-bars:before{
-  color: white;
-}
+
 .btn.btn-outline-warning{
   background-color: #ecb807;
   color: #fff;
@@ -89,28 +106,14 @@ body {
   margin-top: 30px;
 }
 
-.techicon{
-  border-radius: 80px; 
-  width: 90px;
-}
+
 .tt{
   border-radius: 50%;
   margin-left: -19px;
   width: 150px;
   height: 150px;
 }
-.mern{
-  border-radius: 50px; 
-  width: 110px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2pc;
-}
-.java {
-  border-radius: 120px; 
-  width: 108px;
-}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -208,6 +211,7 @@ footer{
   font-weight: 800;
 }
 
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -252,11 +256,7 @@ footer{
     margin-right: auto;
   }
 
-  .whyBot{
-    margin-top: 0px;
-   background-color: #1D809F;
-    color: #ecb807;
-  }
+
 
   .techs{
     margin-bottom: -2px;
@@ -409,9 +409,7 @@ footer{
     background-color: rgba(33, 37, 41, 0.2);
     color: white;
   }
-  .whyBot{
-    background-color: rgba(33, 37, 41, 0.2);
-  }
+
   .custom{
     background-color: rgba(33, 37, 41, 0.2);
   }
@@ -467,14 +465,8 @@ footer{
 .resp{
   font-size: 40px;
 }
-.whyBot{
-  margin-top: 38px;
-  font-size: 30px;
-}
-.whyPong{
-  margin-top: 38px;
-  font-size: 18px;
-}
+
+
 @media only screen and (min-width: 1198px){
   .new{
     margin-left: 140px;
@@ -569,16 +561,7 @@ footer{
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
+
 
 .callout {
   color: white;
