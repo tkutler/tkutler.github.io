@@ -12,14 +12,22 @@ html {
 .text-white{
   color: black;
 }
+
 footer.footer .social-link{
   background-color: #fff;
+  margin-right: 15px;
 }
 .card-title{
   color: grey;
 }
 .icon-social-github:before {
   color: grey;
+}
+.fa-envelope:before {
+  color: grey;
+}
+#mail:hover {
+  background-color: #D6463B;
 }
 .fa-linkedin-in:before{
   color: grey;
@@ -52,9 +60,7 @@ footer.footer .social-link{
 
 
 }
-i.fas {
-  color: #ecb807;
-}
+
 .fa-bars:before{
   color: white;
 }
