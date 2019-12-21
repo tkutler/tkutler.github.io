@@ -29,6 +29,9 @@ footer.footer .social-link{
 #mail:hover {
   background-color: #D6463B;
 }
+i,fas{
+  color: #ba9106;
+}
 .fa-linkedin-in:before{
   color: grey;
 }
