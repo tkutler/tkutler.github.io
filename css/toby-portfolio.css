@@ -7,23 +7,33 @@ html {
 .text-white{
   color: black;
 }
+.contactBtn{
+  margin-top: 40px;
+}
 
 
 .card-title{
   color: grey;
 }
+.card-img-top{
+  margin-top: 15px;
+}
 
 #mail:hover {
   background-color: #D6463B;
 }
+.btn-xl:hover{
+  background-color: #ecb807;
+}
 
 /* icons  */
 i,fas{
-  color: #ba9106;
+  color: #ecb807;
 }
 .fa-linkedin-in:before{
   color: grey;
 }
+
 .fa-linkedin-in:before:hover{
   background-color: #2977B5;
 }
@@ -119,8 +129,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 8.5rem;
 }
 
 .content-section-heading h2 {
@@ -185,10 +195,12 @@ h6 {
 .video{
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
 footer{
   background-color: #1D809F;
 }
+
  .social-link{
   background-color: #fff;
 }
@@ -310,7 +322,7 @@ footer{
     margin-top: -32px;
 }
   #about{
-    margin-top: -82px;
+    margin-top: -49px;
   }
   #rowT{
     border-bottom: solid #1D809F;
@@ -706,6 +718,10 @@ a:hover, a:focus, a:active {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
 }
+.btn:hover{
+  background-color: #ecb807 !important;
+}
+
 
 .bg-primary {
   background-color: #1D809F !important;
