@@ -56,6 +56,9 @@ footer.footer .social-link{
 .fa-bars:before{
   color: white;
 }
+.fa-angle-up:before{
+  color: white;
+}
 .service-icon {
   background-color: #fff;
   color: #1D809F;
@@ -110,7 +113,6 @@ border-style: none;
 display: inline-block;
 margin-top: 7px;
 width: 122px;
-
 margin-left: 2px;
 }
 .ngnix{
