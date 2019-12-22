@@ -10,6 +10,12 @@ html {
 .contactBtn{
   margin-top: 40px;
 }
+#view{
+display: block;
+width: 105px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
 
 
 .card-title{
@@ -60,6 +66,60 @@ footer.footer .social-link{
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.stack{
+
+  border-style: none;
+  display: inline-block;
+  margin-top: 15px;
+  width: 100px;
+  margin-right: 10px;;
+
+}
+.angular{
+
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 50px;
+margin-right: 2px;;
+
+}
+.node{
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 37px;
+
+}
+.aws{
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 61px;
+
+}
+.java{
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 47px;
+
+}
+.csshtml{
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 122px;
+
+margin-left: 2px;
+}
+.ngnix{
+border-style: none;
+display: inline-block;
+margin-top: 7px;
+width: 44px;
+
+}
 
 
 
@@ -106,6 +166,7 @@ footer.footer .social-link{
 body {
   font-family: 'Source Sans Pro';
 }
+
 
 .row {
   margin-left: auto;
@@ -283,9 +344,7 @@ footer{
   .resp{
     font-size: 20px;
   }
-  .buttonText{
-    font-size: 12px;;
-  }
+
 
   .custom{
     font-size: 8px;
@@ -318,6 +377,7 @@ footer{
   .btn-primary{
     margin-bottom: 15px;
   }
+  
   .mx-auto {
     margin-top: -32px;
 }
@@ -337,6 +397,7 @@ footer{
       background-size: 500px 500px;
       font-size: 20px;
   }
+  
 
   .video{
     width: 420px;
@@ -687,11 +748,16 @@ a {
 a:hover, a:focus, a:active {
   color: #155d74;
 }
+#view{
+  display: block;
+  width: 105px;
+}
 
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
   color: #fff !important;
+
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
