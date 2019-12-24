@@ -87,6 +87,15 @@ width: 50px;
 margin-right: 2px;;
 
 }
+.mongo{
+
+  border-style: none;
+  display: inline-block;
+  margin-top: 7px;
+  width: 40px;
+  margin-right: 2px;;
+  
+  }
 .node{
 border-style: none;
 display: inline-block;
