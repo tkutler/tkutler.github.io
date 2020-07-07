@@ -16,8 +16,15 @@ width: 105px;
 margin-top: 15px;
 margin-bottom: 15px;
 }
-
-
+.sf{
+  width: 52px;
+}
+.apex{
+  width: 48px;
+}
+.lightning{
+  width: 37px;
+}
 .card-title{
   color: grey;
 }
